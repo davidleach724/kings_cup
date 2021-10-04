@@ -14,8 +14,8 @@ const Game = () => {
   const generateCardOrder = () => {
     let orderList = []
     let cardList = []
-    while (orderList.length != 2) {
-      let num = Math.floor(Math.random() * 2);
+    while (orderList.length !== 52) {
+      let num = Math.floor(Math.random() * 52);
       if (!orderList.includes(num)) {
         orderList.push(num)
       }
@@ -30,10 +30,9 @@ const Game = () => {
 
 
   return (
-    <section>
-      <h1>This is the game</h1>
+    <section className="game-container" onClick={() => setPosition(position+1)} >
+      <h1 className="game-title">Kings Cup</h1>
       {cardOrder && <CurrentCard card={cardOrder[position]}/>}
-      <button onClick={() => setPosition(position+1)}>DRAW</button>
     </section>
   )
 }
