@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import CurrentCard from '../CurrentCard/CurrentCard'
 import { cardData } from '../../data/cardData'
+import { Link } from 'react-router-dom'
 import './Game.css'
 
 const Game = () => {
@@ -33,6 +34,10 @@ const Game = () => {
     <section className="game-container" onClick={() => setPosition(position+1)} >
       <h1 className="game-title">Kings Cup</h1>
       {cardOrder && position < 52 && <CurrentCard card={cardOrder[position]}/>}
+      {position > 51 && 
+        <Link to="/">
+          <button>Play Again</button>
+        </Link>}
     </section>
   )
 }
