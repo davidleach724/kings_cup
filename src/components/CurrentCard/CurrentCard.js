@@ -1,6 +1,6 @@
 const CurrentCard = ({card}) => {
   return (
-    <p>Current Card:{card} </p>
+    <p>Current Card: {card.name}</p>
   )
 }
 

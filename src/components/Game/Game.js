@@ -1,37 +1,39 @@
 import { useEffect, useState } from 'react'
 import CurrentCard from '../CurrentCard/CurrentCard'
+import { cardData } from '../../data/cardData'
 import './Game.css'
 
 const Game = () => {
-  const [cardOrder, setCardOrder] = useState([])
-  const [currentCard, setCurrentCard] = useState()
+  const [cardOrder, setCardOrder] = useState()
   const [position, setPosition] = useState(0)
 
   useEffect(() => {
-    setCardOrder(generateCardOrder())
+    generateCardOrder()
   }, [])
 
   const generateCardOrder = () => {
     let orderList = []
-    while (orderList.length != 50) {
-      let num = Math.floor(Math.random() * 50);
+    let cardList = []
+    while (orderList.length != 2) {
+      let num = Math.floor(Math.random() * 2);
       if (!orderList.includes(num)) {
         orderList.push(num)
       }
     }
-    return orderList;
+
+    orderList.forEach(num => {
+      cardList.push(cardData[num])
+    })
+
+    setCardOrder(cardList);
   }
 
-  const generateCurrentCard = () => {
-    setPosition(position+1)
-    setCurrentCard(cardOrder[position])
-  }
 
   return (
     <section>
       <h1>This is the game</h1>
-      {currentCard != null && <CurrentCard card={currentCard}/>}
-      <button onClick={() => generateCurrentCard()}>DRAW</button>
+      {cardOrder && <CurrentCard card={cardOrder[position]}/>}
+      <button onClick={() => setPosition(position+1)}>DRAW</button>
     </section>
   )
 }
