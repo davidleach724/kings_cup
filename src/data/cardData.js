@@ -29,7 +29,7 @@ export const cardData = [
   },
   {
     name: 'club_8',
-    rule: '8 is for mate (choose a partner to drink with)'
+    rule: '8 is for mate (choose a partner & take a drink with them)'
   },
   {
     name: 'club_9',
@@ -81,7 +81,7 @@ export const cardData = [
   },
   {
     name: 'diamond_8',
-    rule: '8 is for mate (choose a partner to drink with)'
+    rule: '8 is for mate (choose a partner & take a drink with them)'
   },
   {
     name: 'diamond_9',
@@ -133,7 +133,7 @@ export const cardData = [
   },
   {
     name: 'heart_8',
-    rule: '8 is for mate (choose a partner to drink with)'
+    rule: '8 is for mate (choose a partner & take a drink with them)'
   },
   {
     name: 'heart_9',
@@ -185,7 +185,7 @@ export const cardData = [
   },
   {
     name: 'spade_8',
-    rule: '8 is for mate (choose a partner to drink with)'
+    rule: '8 is for mate (choose a partner & take a drink with them)'
   },
   {
     name: 'spade_9',
