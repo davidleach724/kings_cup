@@ -3,7 +3,8 @@ import './Game.css'
 
 const Game = () => {
   const [cardOrder, setCardOrder] = useState([])
-  const [currentCard, setCurrentCard] = useState({})
+  const [currentCard, setCurrentCard] = useState()
+  const [position, setPosition] = useState(0)
 
   useEffect(() => {
     setCardOrder(generateCardOrder())
@@ -20,10 +21,15 @@ const Game = () => {
     return orderList;
   }
 
+  const generateCurrentCard = () => {
+    setPosition(position+1)
+    setCurrentCard(cardOrder[position])
+  }
+
   return (
     <section>
       <h1>This is the game</h1>
-      <button>DRAW</button>
+      <button onClick={() => generateCurrentCard()}>DRAW</button>
     </section>
   )
 }
