@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import CurrentCard from '../CurrentCard/CurrentCard'
 import './Game.css'
 
 const Game = () => {
@@ -29,6 +30,7 @@ const Game = () => {
   return (
     <section>
       <h1>This is the game</h1>
+      {currentCard != null && <CurrentCard card={currentCard}/>}
       <button onClick={() => generateCurrentCard()}>DRAW</button>
     </section>
   )
