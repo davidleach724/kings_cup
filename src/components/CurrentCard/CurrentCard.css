@@ -8,11 +8,13 @@
 }
 
 .card-image {
-  height: 65vh;
+  height: 70vh;
   width: auto;
 }
 
 .card-rule {
-  margin: 2vh;
+  margin: 1vh;
   text-align: center;
+  color: white;
+  font-size: 4vh;
 }

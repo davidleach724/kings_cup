@@ -32,7 +32,7 @@ const Game = () => {
   return (
     <section className="game-container" onClick={() => setPosition(position+1)} >
       <h1 className="game-title">Kings Cup</h1>
-      {cardOrder && <CurrentCard card={cardOrder[position]}/>}
+      {cardOrder && position < 52 && <CurrentCard card={cardOrder[position]}/>}
     </section>
   )
 }
