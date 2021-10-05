@@ -1,0 +1,20 @@
+.rules-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.home-banner {
+  height: auto;
+  width: 95vw;
+  margin-top: 3vh;
+}
+
+.rules-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+  height: 60vh;
+}
