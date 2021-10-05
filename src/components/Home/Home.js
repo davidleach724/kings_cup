@@ -10,6 +10,7 @@ const Home = () => {
 
   return (
     <section className="home-menu">
+      {console.log('This page was created for funsies by Dave Leach davidleach724@gmail.com')}
       <img className="home-banner" alt="banner" src={banner} />
       <div className="menu-btns">
       <Link to="/game">
