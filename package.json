@@ -1,6 +1,5 @@
 {
   "name": "kings_cup",
-  "homepage": "http://davidleach724.github.io/kings_cup",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -20,7 +19,8 @@
     "eject": "react-scripts eject",
     "cypress": "./node_modules/.bin/cypress open",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "dist": "echo istill.party > build/CNAME; surge"
   },
   "eslintConfig": {
     "extends": [
