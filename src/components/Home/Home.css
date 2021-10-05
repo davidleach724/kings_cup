@@ -7,7 +7,7 @@
   align-items: center;
 }
 
-button {
+.menu-btn {
   height: 20vh;
   width: 80vw;
   margin: 4vh;
