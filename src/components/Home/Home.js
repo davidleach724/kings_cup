@@ -4,18 +4,22 @@ import banner from '../../images/banner.png'
 
 import { Link } from "react-router-dom"
 import './Home.css'
+import Footer from '../Footer/Footer'
 
 const Home = () => {
 
   return (
     <section className="home-menu">
-      <h1 className="game-title">Kings Cup</h1>
+      <img className="home-banner" src={banner} />
+      <div className="menu-btns">
       <Link to="/game">
         <img className="menu-btn" src={newGame} />
       </Link>
       <Link to="/rules">
         <img className="menu-btn" src={rules} />
       </Link>
+      </div>
+      <Footer />
     </section>
   )
 }

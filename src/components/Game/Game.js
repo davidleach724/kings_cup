@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import CurrentCard from '../CurrentCard/CurrentCard'
 import { cardData } from '../../data/cardData'
 import { Link } from 'react-router-dom'
+import playAgain from '../../images/play_again.png'
 import './Game.css'
 
 const Game = () => {
@@ -36,7 +37,7 @@ const Game = () => {
       {cardOrder && position < 52 && <CurrentCard card={cardOrder[position]}/>}
       {position > 51 && 
         <Link to="/">
-          <button>Play Again</button>
+          <img className="menu-btn" src={playAgain} />
         </Link>}
     </section>
   )
