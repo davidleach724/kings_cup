@@ -1,8 +1,10 @@
+import TopBanner from '../TopBanner/TopBanner'
 import './CurrentCard.css'
 
 const CurrentCard = ({card}) => {
   return (
     <div className="card-container">
+      <TopBanner />
       <img
             className="card-image"
             src={
