@@ -1,10 +1,12 @@
 import banner from '../../images/banner.png'
 import './TopBanner.css'
 
-const TopBanner = () => {
+const TopBanner = ({position}) => {
+
   return (
     <div className="header-container">
       <img className="game-banner" src={banner} />
+      <h1 className="cards-left" >{51-position}</h1>
     </div>
   )
 }

@@ -1,10 +1,10 @@
 import TopBanner from '../TopBanner/TopBanner'
 import './CurrentCard.css'
 
-const CurrentCard = ({card}) => {
+const CurrentCard = ({card, position}) => {
   return (
     <div className="card-container">
-      <TopBanner />
+      <TopBanner position={position}/>
       <img
             className="card-image"
             src={
