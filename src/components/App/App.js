@@ -8,6 +8,7 @@ const App = () => {
 
   return ( 
     <main>
+      
       <Switch>
         <Route exact path='/' component={ Home } />
         <Route exact path='/game' component={ Game } />
