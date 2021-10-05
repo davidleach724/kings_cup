@@ -1,0 +1,14 @@
+.header-container {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.game-banner {
+  height: 10vh;
+  margin-left: 8vw;
+}
+
+.cards-left {
+  margin-right: 5vw;
+}

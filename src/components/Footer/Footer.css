@@ -1,0 +1,10 @@
+.footer-container{
+  display: flex;
+  justify-content: space-around;
+  width: 100vw;
+  margin: 3vh;
+}
+
+.footerimg {
+  height: 6vh;
+}
