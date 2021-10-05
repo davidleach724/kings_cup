@@ -7,10 +7,10 @@ import './PlayAgain.css'
 const PlayAgain = () => {
   return (
     <section className="home-menu">
-      <img className="home-banner" src={banner} />
+      <img className="home-banner" alt="banner" src={banner} />
       <div className="menu-btns">
       <Link to="/">
-        <img className="play-again-btn" src={playAgain} />
+        <img className="play-again-btn" alt="play again btn" src={playAgain} />
       </Link>
       </div>
       <Footer />

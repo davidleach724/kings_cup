@@ -6,7 +6,7 @@ const Rules = () => {
   return (
     <div className="rules-container">
       <Link to='/'>
-        <img className="home-banner" src={ banner } />
+        <img className="home-banner" alt="banner" src={ banner } />
       </Link>
       <div className="rules-list">
         <p>i drink responsibly... but istill.party</p>

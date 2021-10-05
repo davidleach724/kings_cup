@@ -5,7 +5,7 @@ const TopBanner = ({position}) => {
 
   return (
     <div className="header-container">
-      <img className="game-banner" src={banner} />
+      <img className="game-banner" alt="banner" src={banner} />
       <h1 className="cards-left" >{51-position}</h1>
     </div>
   )

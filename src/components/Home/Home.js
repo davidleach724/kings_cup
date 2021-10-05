@@ -10,13 +10,13 @@ const Home = () => {
 
   return (
     <section className="home-menu">
-      <img className="home-banner" src={banner} />
+      <img className="home-banner" alt="banner" src={banner} />
       <div className="menu-btns">
       <Link to="/game">
-        <img className="menu-btn" src={newGame} />
+        <img className="menu-btn" alt="new game btn" src={newGame} />
       </Link>
       <Link to="/rules">
-        <img className="menu-btn" src={rules} />
+        <img className="menu-btn" alt="rules btn" src={rules} />
       </Link>
       </div>
       <Footer />

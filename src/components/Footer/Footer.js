@@ -5,8 +5,8 @@ import './Footer.css'
 const Footer = () => {
   return (
     <div className="footer-container">
-      <img className="footerimg" src={istillparty} />
-      <img className="footerimg" src={glasses} />
+      <img className="footerimg" alt="istill.party" src={istillparty} />
+      <img className="footerimg" alt="glasses logo" src={glasses} />
     </div>
   )
 }
