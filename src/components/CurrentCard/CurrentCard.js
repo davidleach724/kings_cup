@@ -16,7 +16,7 @@ const CurrentCard = ({card, position}) => {
         key={card.name}
         alt={card.name}
       />
-      <p className="card-rule">{card.rule}</p>
+      <p className="card-rule" key={card.name + 1}>{card.rule}</p>
     </div>
   )
 }
