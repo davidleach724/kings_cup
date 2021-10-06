@@ -1,10 +1,11 @@
 .footer-container{
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-end;
   width: 100vw;
-  margin: 3vh;
+  margin: 1vh;
 }
 
 .footerimg {
   height: 6vh;
+  margin-left: 3vw;
 }
