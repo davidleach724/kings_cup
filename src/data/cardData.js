@@ -21,7 +21,7 @@ export const cardData = [
   },
   {
     name: 'club_6',
-    rule: '6 is for ... the men'
+    rule: '6 is for ... men'
   },
   {
     name: 'club_7',
@@ -33,7 +33,7 @@ export const cardData = [
   },
   {
     name: 'club_9',
-    rule: '9 is for a rhyme'
+    rule: '9 is for rhyme'
   },
   {
     name: 'club_10',
@@ -73,7 +73,7 @@ export const cardData = [
   },
   {
     name: 'diamond_6',
-    rule: '6 is for ... the men'
+    rule: '6 is for ... men'
   },
   {
     name: 'diamond_7',
@@ -85,7 +85,7 @@ export const cardData = [
   },
   {
     name: 'diamond_9',
-    rule: '9 is for a rhyme'
+    rule: '9 is for rhyme'
   },
   {
     name: 'diamond_10',
@@ -125,7 +125,7 @@ export const cardData = [
   },
   {
     name: 'heart_6',
-    rule: '6 is for ... the men'
+    rule: '6 is for ... men'
   },
   {
     name: 'heart_7',
@@ -137,7 +137,7 @@ export const cardData = [
   },
   {
     name: 'heart_9',
-    rule: '9 is for a rhyme'
+    rule: '9 is for rhyme'
   },
   {
     name: 'heart_10',
@@ -177,7 +177,7 @@ export const cardData = [
   },
   {
     name: 'spade_6',
-    rule: '6 is for ... the men'
+    rule: '6 is for ... men'
   },
   {
     name: 'spade_7',
@@ -189,7 +189,7 @@ export const cardData = [
   },
   {
     name: 'spade_9',
-    rule: '9 is for a rhyme'
+    rule: '9 is for rhyme'
   },
   {
     name: 'spade_10',

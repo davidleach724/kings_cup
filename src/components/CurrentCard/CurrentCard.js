@@ -6,15 +6,15 @@ const CurrentCard = ({card, position}) => {
     <div className="card-container">
       <TopBanner position={position}/>
       <img
-            className="card-image"
-            src={
-              process.env.PUBLIC_URL +
-              "/project-images/" +
-              card.name +
-              ".png"
-            }
-            key={card.name}
-            alt={card.name}
+        className="card-image"
+        src={
+          process.env.PUBLIC_URL +
+          "/project-images/" +
+          card.name +
+          ".png"
+        }
+        key={card.name}
+        alt={card.name}
       />
       <p className="card-rule">{card.rule}</p>
     </div>
