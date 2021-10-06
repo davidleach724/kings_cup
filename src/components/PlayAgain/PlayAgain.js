@@ -7,7 +7,7 @@ import './PlayAgain.css'
 const PlayAgain = () => {
   return (
     <section className="home-menu">
-      <img className="home-banner" alt="banner" src={banner} />
+      <img className="play-again-banner" alt="banner" src={banner} />
       <div className="menu-btns">
       <Link to="/">
         <img className="play-again-btn" alt="play again btn" src={playAgain} />
