@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/kings_cup/static/css/main.5d24a771.chunk.css",
-    "main.js": "/kings_cup/static/js/main.30209f88.chunk.js",
-    "main.js.map": "/kings_cup/static/js/main.30209f88.chunk.js.map",
+    "main.css": "/kings_cup/static/css/main.42e7585d.chunk.css",
+    "main.js": "/kings_cup/static/js/main.ceb0de43.chunk.js",
+    "main.js.map": "/kings_cup/static/js/main.ceb0de43.chunk.js.map",
     "runtime-main.js": "/kings_cup/static/js/runtime-main.b7e2ac69.js",
     "runtime-main.js.map": "/kings_cup/static/js/runtime-main.b7e2ac69.js.map",
-    "static/js/2.0c1d5011.chunk.js": "/kings_cup/static/js/2.0c1d5011.chunk.js",
-    "static/js/2.0c1d5011.chunk.js.map": "/kings_cup/static/js/2.0c1d5011.chunk.js.map",
+    "static/js/2.5452fbfb.chunk.js": "/kings_cup/static/js/2.5452fbfb.chunk.js",
+    "static/js/2.5452fbfb.chunk.js.map": "/kings_cup/static/js/2.5452fbfb.chunk.js.map",
     "index.html": "/kings_cup/index.html",
-    "static/css/main.5d24a771.chunk.css.map": "/kings_cup/static/css/main.5d24a771.chunk.css.map",
-    "static/js/2.0c1d5011.chunk.js.LICENSE.txt": "/kings_cup/static/js/2.0c1d5011.chunk.js.LICENSE.txt",
+    "static/css/main.42e7585d.chunk.css.map": "/kings_cup/static/css/main.42e7585d.chunk.css.map",
+    "static/js/2.5452fbfb.chunk.js.LICENSE.txt": "/kings_cup/static/js/2.5452fbfb.chunk.js.LICENSE.txt",
     "static/media/banner.994b8684.png": "/kings_cup/static/media/banner.994b8684.png",
     "static/media/glasses.bf762789.png": "/kings_cup/static/media/glasses.bf762789.png",
     "static/media/istillparty.e085d8c7.png": "/kings_cup/static/media/istillparty.e085d8c7.png",
@@ -19,8 +19,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.b7e2ac69.js",
-    "static/js/2.0c1d5011.chunk.js",
-    "static/css/main.5d24a771.chunk.css",
-    "static/js/main.30209f88.chunk.js"
+    "static/js/2.5452fbfb.chunk.js",
+    "static/css/main.42e7585d.chunk.css",
+    "static/js/main.ceb0de43.chunk.js"
   ]
 }
