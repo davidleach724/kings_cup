@@ -1,6 +1,5 @@
 import React from 'react'
 import { Route, Switch } from 'react-router'
-import { HashRouter } from 'react-router-dom'
 import Game from '../Game/Game'
 import Home from '../Home/Home'
 import Rules from '../Rules/Rules'
