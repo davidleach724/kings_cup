@@ -13,8 +13,10 @@ const CurrentCard = ({card, position}) => {
               card.name +
               ".png"
             }
+            key={card.name}
             alt={card.name}
           />
+        
       <p className="card-rule">{card.rule}</p>
     </div>
   )
