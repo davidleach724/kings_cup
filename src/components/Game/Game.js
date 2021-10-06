@@ -29,10 +29,10 @@ const Game = () => {
     setCardOrder(cardList);
   }
 
-
   return (
     <section className="game-container" onClick={() => setPosition(position+1)}>
-      {cardOrder && position < 52 && <CurrentCard position={position} card={cardOrder[position]}/>}
+      {cardOrder && position < 52 && 
+        <CurrentCard position={position} card={cardOrder[position]}/>}
       {position > 51 && <PlayAgain />}
     </section>
   )

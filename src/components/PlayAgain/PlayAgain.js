@@ -9,9 +9,9 @@ const PlayAgain = () => {
     <section className="home-menu">
       <img className="play-again-banner" alt="banner" src={banner} />
       <div className="menu-btns">
-      <Link to="/">
-        <img className="play-again-btn" alt="play again btn" src={playAgain} />
-      </Link>
+        <Link to="/">
+          <img className="play-again-btn" alt="play again btn" src={playAgain} />
+        </Link>
       </div>
       <Footer />
     </section>
