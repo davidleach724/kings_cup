@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+# istill.party (a lesson in creativity and a joke gone too far)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Overview
+Gather around while I paint a picture with my threads of golden word notes.
 
-## Available Scripts
+[Still there? - here is the deployed application](https://www.istill.party)
 
-In the project directory, you can run:
+A few weeks ago I was interested in purchasing my own domain. I conferred with my good friend Marcus about the situation and he informed me that normal '.com' domains were for nerds and there were many much more exciting options available. I stumbled across countless options... and then I found '.party' (now is an important time to restate that I found .party and .party did not find me). I immediately made the joke about buying iusedto.party and istill.party. Well, there must have been something stellar about the moonlight that night or the tasty microbrews I was sluggin' because around 1am I bought them and commited to the joke.
 
-### `npm start`
+At first, the website only contained a simple line and at most would result in a subtle exhale out of one, maybe two, nostrils. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![Screen Shot 2021-10-07 at 12 17 14](https://user-images.githubusercontent.com/81774070/136440729-dc161580-c3df-43ee-9a8f-3a7af0962765.png)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
+This was good fun, but to be honest, was not fulfilling :( Fast forward a few weeks later and I had an idea to actually make something useful for this domain so I decided to create an app that would play a round of kings cup. 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<img src="https://user-images.githubusercontent.com/81774070/136441587-ebbfb54c-9b2e-4f16-b52d-98d5d92b72a0.gif" alt="drawing" width="200"/>
 
-### `npm run build`
+<img src="https://user-images.githubusercontent.com/81774070/136441612-602519de-c26e-4ffa-a056-73c81c59166f.gif" alt="drawing" width="200"/>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This domain has always been a virtual playground and only meant to foster creativity - not meant to offend anyone nor promote drinking.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Technologies
+- React
+- React Hooks
+- React Router
+- Asynchronous JavaScript
+- Javascript
+- CSS/SCSS
+- Adobe Photoshop
+- CSS Transitions
+- GitHub Pages Deployment
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Contributors
+- [Dave Leach](https://github.com/davidleach724)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Wins & Challenges
+- Designing a project with a mobile interface in mind
+- Creating a project out of pure curiosity and self-interest
+- Deploying a React application on GitHub pages to a custom domain
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Future Add-ons
+- The ability to show/hide rules
+- Dark/Light themes
+- More rules/mini games during actual gameplay 
