@@ -13,9 +13,9 @@ const Rules = () => {
       <ul className="rules-list">
         <li>2 is for you (choose a person)</li>
         <li>3 is for me (you drink)</li>
-        <li>4 is for ... women (women drink)</li>
+        <li>4 is for dudes (dudes drink)</li>
         <li>5 is for never have i ever (one round, losers drink)</li>
-        <li>6 is for ... men (men drink)</li>
+        <li>6 is for chicks (chicks drink)</li>
         <li>7 is for heaven (last person pointing up drinks)</li>
         <li>8 is for a date (choose a partner & take a drink with them)</li>
         <li>9 is for rhyme (rhyme a word or phrase and whoever can't drinks)</li>
