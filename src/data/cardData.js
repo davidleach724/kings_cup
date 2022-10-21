@@ -13,7 +13,7 @@ export const cardData = [
   },
   {
     name: 'club_4',
-    rule: '4 is for ... women'
+    rule: '4 is for dudes'
   },
   {
     name: 'club_5',
@@ -21,7 +21,7 @@ export const cardData = [
   },
   {
     name: 'club_6',
-    rule: '6 is for ... men'
+    rule: '6 is for chicks'
   },
   {
     name: 'club_7',
